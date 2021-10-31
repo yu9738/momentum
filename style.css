@@ -1,0 +1,58 @@
+body{
+    color: white;
+    text-align:center;
+    font-family: 'Roboto', 'Segoe UI',Arial,'Malgun Gothic','Gulim',sans-serif;
+}
+
+.hidden{
+    display:none;
+}
+
+.bold{
+    font-weight:bold ;
+}
+
+img {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    filter:brightness(0.7);
+    }
+
+#weather{
+    text-align: right;
+}
+
+#clock{
+    margin-top: 220px;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+input{
+    color : white;
+    border: none; background: transparent;
+    border-bottom: 1px solid white;
+    margin: 5px;
+    width: 200px;
+}
+button{
+    background : none;
+    border : 0;
+    outline : 0;
+}
+::placeholder{
+    color : white;
+    text-align: center;
+}
+
+ul{
+    list-style:none;    
+}
+#quote { position: fixed; bottom: 10px; width: 100%; }
+
